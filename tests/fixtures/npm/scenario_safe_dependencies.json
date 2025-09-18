@@ -1,0 +1,18 @@
+{
+  "name": "safe-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": {
+      "version": "4.17.21",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+    },
+    "express": {
+      "version": "4.18.0",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.18.0.tgz"
+    },
+    "moment": {
+      "version": "2.25.0",
+      "resolved": "https://registry.npmjs.org/moment/-/moment-2.25.0.tgz"
+    }
+  }
+}

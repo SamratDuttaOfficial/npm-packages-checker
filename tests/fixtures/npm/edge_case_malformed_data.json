@@ -1,0 +1,15 @@
+{
+  "name": "malformed-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "badpackage1": {
+      "version": "invalid.version.format"
+    },
+    "badpackage2": {
+      "version": ""
+    },
+    "normal-package": {
+      "version": "1.0.0"
+    }
+  }
+}

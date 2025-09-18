@@ -1,0 +1,45 @@
+{
+  "name": "complex-project",
+  "version": "2.0.0",
+  "dependencies": {
+    "lodash": {
+      "version": "4.17.20",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz",
+      "dependencies": {}
+    },
+    "express": {
+      "version": "4.17.1",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.17.1.tgz",
+      "dependencies": {
+        "debug": {
+          "version": "2.6.9",
+          "resolved": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
+        }
+      }
+    },
+    "axios": {
+      "version": "0.21.1",
+      "resolved": "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz"
+    },
+    "underscore": {
+      "version": "1.9.1",
+      "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.9.1.tgz"
+    },
+    "moment": {
+      "version": "2.29.1",
+      "resolved": "https://registry.npmjs.org/moment/-/moment-2.29.1.tgz"
+    },
+    "react": {
+      "version": "16.8.0",
+      "resolved": "https://registry.npmjs.org/react/-/react-16.8.0.tgz"
+    },
+    "vue": {
+      "version": "2.6.10",
+      "resolved": "https://registry.npmjs.org/vue/-/vue-2.6.10.tgz"
+    },
+    "angular": {
+      "version": "9.0.0",
+      "resolved": "https://registry.npmjs.org/angular/-/angular-9.0.0.tgz"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": {
+      "version": "4.17.20"
+    },
+    "express": {
+      "version": "4.17.1"
+    },
+    "moment": {
+      "version": "2.24.0"
+    }
+  }
+}

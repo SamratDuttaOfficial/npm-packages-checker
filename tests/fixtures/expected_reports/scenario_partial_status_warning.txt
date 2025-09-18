@@ -1,0 +1,33 @@
+NPM VULNERABILITY REPORT
+========================
+Generated: 2025-09-18 03:15:42
+
+STATUS: WARNING
+Found 2 potential package match(es) requiring attention
+
+SCAN SUMMARY:
+=============
+Total dependencies scanned: 4
+Vulnerable packages in database: 3
+Vulnerabilities found: 0
+Direct dependency vulnerabilities: 0
+Indirect dependency vulnerabilities: 0
+
+POTENTIAL PACKAGE MATCHES:
+=========================
+[1] @types/lodash@1.0.0 (vulnerable: lodash 4.17.19, 4.17.20)
+    Dependency Levels: @types/lodash@1.0.0
+
+[2] lodash-like@2.1.0 (vulnerable: lodash 4.17.19, 4.17.20)
+    Dependency Levels: lodash-like@2.1.0
+
+PACKAGE MATCHING ANALYSIS:
+=========================
+  express@4.18.0 -> Safe version (unsafe: 4.16.4, 4.17.0)
+    Dependency Levels: express@4.18.0
+  moment@2.25.0 -> Safe version (unsafe: 2.29.1)
+    Dependency Levels: moment@2.25.0
+
+Packages found in vulnerability database: 2
+Packages not in database (unknown): 2
+Warnings (partial matches): 2

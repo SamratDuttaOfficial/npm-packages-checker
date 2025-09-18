@@ -1,0 +1,10 @@
+PackageName,VulnVersions,Severity
+,4.17.19,High
+lodash,,Medium
+ , ,Low
+"package-with-dashes",1.0.0 2.0.0,Critical
+@scoped/package,3.0.0,High
+package_with_underscores,4.0.0,Medium
+UPPERCASE-PACKAGE,5.0.0,Low
+123numeric-start,6.0.0,Medium
+special!@#$%chars,7.0.0,High

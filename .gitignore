@@ -1,0 +1,25 @@
+# Build artifacts
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+build/
+
+# IDE files
+.vscode/
+.vs/
+
+# Debug files
+debug_*
+
+# Hidden folders
+.*/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

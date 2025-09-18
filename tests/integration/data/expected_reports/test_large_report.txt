@@ -1,0 +1,33 @@
+NPM VULNERABILITY REPORT
+========================
+Generated: 2025-09-18 19:10:30
+
+STATUS: VULNERABLE
+Found 1 vulnerable package(s) in your project
+
+VULNERABILITY DETAILS:
+=====================
+
+[1] VULNERABLE PACKAGE FOUND:
+    Package Name: express 4.17.1 (Reported Vulnerable Package: express 4.17.1)
+    Dependency Type: Direct
+    Dependency Levels: express@4.17.1
+    All Vulnerable Versions in Database: 4.17.1
+    All Instances in the Project: 4.17.1
+
+SCAN SUMMARY:
+=============
+Total dependencies scanned: 3
+Vulnerable packages in database: 52
+Vulnerabilities found: 1
+Direct dependency vulnerabilities: 1
+Indirect dependency vulnerabilities: 0
+
+PACKAGE MATCHING ANALYSIS:
+=========================
+  express@4.17.1 -> VULNERABLE
+    Dependency Levels: express@4.17.1
+
+Packages found in vulnerability database: 1
+Packages not in database (unknown): 2
+Warnings (partial matches): 0

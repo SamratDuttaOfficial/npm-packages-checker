@@ -1,0 +1,14 @@
+Package,Vulnerable_Versions,Severity,CVE
+lodash,4.17.19 4.17.20,High,CVE-2021-23337
+express,4.16.4 4.17.0,Medium,CVE-2022-24999
+moment,2.29.1,Low,CVE-2022-24785
+axios,0.18.0 0.19.0 0.21.1,Critical,CVE-2020-28168
+underscore,1.9.1 1.12.0,Medium,CVE-2021-23358
+debug,2.6.9,Low,CVE-2017-20165
+ms,2.0.0,Low,CVE-2020-28499
+inherits,2.0.3 2.0.4,Medium,CVE-2022-21704
+follow-redirects,1.14.0 1.14.1,High,CVE-2022-0155
+body-parser,1.19.0,Medium,CVE-2022-29078
+http-errors,1.7.3,Low,CVE-2020-7658
+cookie,0.4.0,Low,CVE-2024-47764
+qs,6.7.0 6.10.4,Medium,CVE-2022-24999
