@@ -199,9 +199,9 @@ jobs:
 ## Version Management
 
 ### Semantic Versioning
-- **MAJOR** (v1.0.0 → v2.0.0): Breaking changes
-- **MINOR** (v1.0.0 → v1.1.0): New features, backward compatible
-- **PATCH** (v1.0.0 → v1.0.1): Bug fixes, backward compatible
+- **MAJOR** (v1.0.0 -> v2.0.0): Breaking changes
+- **MINOR** (v1.0.0 -> v1.1.0): New features, backward compatible
+- **PATCH** (v1.0.0 -> v1.0.1): Bug fixes, backward compatible
 
 ### Release Schedule
 - **Patch releases**: As needed for critical bugs

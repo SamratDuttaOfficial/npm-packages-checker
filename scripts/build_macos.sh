@@ -48,7 +48,7 @@ fi
 echo "Using $COMPILER compiler..."
 
 # Source files
-SOURCES="src/main.c src/common.c src/csv_parser.c src/npm_analyzer.c src/vulnerability_checker.c src/report_generator.c src/gui_gtk.c"
+SOURCES="src/main.c src/common.c src/csv_parser.c src/npm_analyzer.c src/vulnerability_checker.c src/report_generator.c src/gui_gtk.c src/cli.c"
 
 # Compile the application
 echo "Compiling..."

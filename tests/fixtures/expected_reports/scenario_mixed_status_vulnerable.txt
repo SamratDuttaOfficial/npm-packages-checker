@@ -32,56 +32,56 @@ VULNERABILITY DETAILS:
 [4] VULNERABLE PACKAGE FOUND:
     Package Name: body-parser 1.19.0 (Reported Vulnerable Package: body-parser 1.19.0)
     Dependency Type: Indirect (2 levels)
-    Dependency Levels: express@4.17.1 → body-parser@1.19.0
+    Dependency Levels: express@4.17.1 -> body-parser@1.19.0
     All Vulnerable Versions in Database: 1.19.0
     All Instances in the Project: 1.19.0
 
 [5] VULNERABLE PACKAGE FOUND:
     Package Name: http-errors 1.7.3 (Reported Vulnerable Package: http-errors 1.7.3)
     Dependency Type: Indirect (3 levels)
-    Dependency Levels: express@4.17.1 → body-parser@1.19.0 → http-errors@1.7.3
+    Dependency Levels: express@4.17.1 -> body-parser@1.19.0 -> http-errors@1.7.3
     All Vulnerable Versions in Database: 1.7.3
     All Instances in the Project: 1.7.3
 
 [6] VULNERABLE PACKAGE FOUND:
     Package Name: inherits 2.0.3 (Reported Vulnerable Package: inherits 2.0.3)
     Dependency Type: Indirect (4 levels)
-    Dependency Levels: express@4.17.1 → body-parser@1.19.0 → http-errors@1.7.3 → inherits@2.0.3
+    Dependency Levels: express@4.17.1 -> body-parser@1.19.0 -> http-errors@1.7.3 -> inherits@2.0.3
     All Vulnerable Versions in Database: 2.0.3, 2.0.4
     All Instances in the Project: 2.0.3
 
 [7] VULNERABLE PACKAGE FOUND:
     Package Name: qs 6.7.0 (Reported Vulnerable Package: qs 6.7.0)
     Dependency Type: Indirect (3 levels)
-    Dependency Levels: express@4.17.1 → body-parser@1.19.0 → qs@6.7.0
+    Dependency Levels: express@4.17.1 -> body-parser@1.19.0 -> qs@6.7.0
     All Vulnerable Versions in Database: 6.7.0, 6.10.4
     All Instances in the Project: 6.7.0
 
 [8] VULNERABLE PACKAGE FOUND:
     Package Name: cookie 0.4.0 (Reported Vulnerable Package: cookie 0.4.0)
     Dependency Type: Indirect (2 levels)
-    Dependency Levels: express@4.17.1 → cookie@0.4.0
+    Dependency Levels: express@4.17.1 -> cookie@0.4.0
     All Vulnerable Versions in Database: 0.4.0
     All Instances in the Project: 0.4.0
 
 [9] VULNERABLE PACKAGE FOUND:
     Package Name: debug 2.6.9 (Reported Vulnerable Package: debug 2.6.9)
     Dependency Type: Indirect (2 levels)
-    Dependency Levels: express@4.17.1 → debug@2.6.9
+    Dependency Levels: express@4.17.1 -> debug@2.6.9
     All Vulnerable Versions in Database: 2.6.9
     All Instances in the Project: 2.6.9
 
 [10] VULNERABLE PACKAGE FOUND:
     Package Name: ms 2.0.0 (Reported Vulnerable Package: ms 2.0.0)
     Dependency Type: Indirect (3 levels)
-    Dependency Levels: express@4.17.1 → debug@2.6.9 → ms@2.0.0
+    Dependency Levels: express@4.17.1 -> debug@2.6.9 -> ms@2.0.0
     All Vulnerable Versions in Database: 2.0.0
     All Instances in the Project: 2.0.0
 
 [11] VULNERABLE PACKAGE FOUND:
     Package Name: follow-redirects 1.14.0 (Reported Vulnerable Package: follow-redirects 1.14.0)
     Dependency Type: Indirect (2 levels)
-    Dependency Levels: axios@0.21.1 → follow-redirects@1.14.0
+    Dependency Levels: axios@0.21.1 -> follow-redirects@1.14.0
     All Vulnerable Versions in Database: 1.14.0, 1.14.1
     All Instances in the Project: 1.14.0
 
@@ -100,23 +100,23 @@ PACKAGE MATCHING ANALYSIS:
   express@4.17.1 -> Safe version (unsafe: 4.16.4, 4.17.0)
     Dependency Levels: express@4.17.1
   body-parser@1.19.0 -> VULNERABLE
-    Dependency Levels: express@4.17.1 → body-parser@1.19.0
+    Dependency Levels: express@4.17.1 -> body-parser@1.19.0
   http-errors@1.7.3 -> VULNERABLE
-    Dependency Levels: express@4.17.1 → body-parser@1.19.0 → http-errors@1.7.3
+    Dependency Levels: express@4.17.1 -> body-parser@1.19.0 -> http-errors@1.7.3
   inherits@2.0.3 -> VULNERABLE
-    Dependency Levels: express@4.17.1 → body-parser@1.19.0 → http-errors@1.7.3 → inherits@2.0.3
+    Dependency Levels: express@4.17.1 -> body-parser@1.19.0 -> http-errors@1.7.3 -> inherits@2.0.3
   qs@6.7.0 -> VULNERABLE
-    Dependency Levels: express@4.17.1 → body-parser@1.19.0 → qs@6.7.0
+    Dependency Levels: express@4.17.1 -> body-parser@1.19.0 -> qs@6.7.0
   cookie@0.4.0 -> VULNERABLE
-    Dependency Levels: express@4.17.1 → cookie@0.4.0
+    Dependency Levels: express@4.17.1 -> cookie@0.4.0
   debug@2.6.9 -> VULNERABLE
-    Dependency Levels: express@4.17.1 → debug@2.6.9
+    Dependency Levels: express@4.17.1 -> debug@2.6.9
   ms@2.0.0 -> VULNERABLE
-    Dependency Levels: express@4.17.1 → debug@2.6.9 → ms@2.0.0
+    Dependency Levels: express@4.17.1 -> debug@2.6.9 -> ms@2.0.0
   axios@0.21.1 -> VULNERABLE
     Dependency Levels: axios@0.21.1
   follow-redirects@1.14.0 -> VULNERABLE
-    Dependency Levels: axios@0.21.1 → follow-redirects@1.14.0
+    Dependency Levels: axios@0.21.1 -> follow-redirects@1.14.0
   moment@2.24.0 -> Safe version (unsafe: 2.29.1)
     Dependency Levels: moment@2.24.0
   underscore@1.9.1 -> VULNERABLE

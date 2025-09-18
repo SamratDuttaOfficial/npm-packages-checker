@@ -201,7 +201,7 @@ static int parse_all_dependencies(FILE *file, DependencyTree *tree) {
                         for (int i = 2; i <= pkg_depth; i++) {
                             if (strlen(version_stack[i]) > 0) {
                                 if (strlen(full_path) > 0) {
-                                    strncat(full_path, " → ", sizeof(full_path) - strlen(full_path) - 1);
+                                    strncat(full_path, " -> ", sizeof(full_path) - strlen(full_path) - 1);
                                 }
                                 char segment[256];
                                 snprintf(segment, sizeof(segment), "%s@%s", package_stack[i], version_stack[i]);

@@ -40,13 +40,13 @@ REM Create test build directory
 if not exist "build\tests" mkdir "build\tests"
 
 REM Source files (excluding GUI modules for tests)
-set MAIN_SOURCES=src\common.c src\csv_parser.c src\npm_analyzer.c src\vulnerability_checker.c src\report_generator.c
+set MAIN_SOURCES=src\common.c src\csv_parser.c src\npm_analyzer.c src\vulnerability_checker.c src\report_generator.c src\cli.c
 
 REM Test source files
 set TEST_SOURCES=tests\test_framework.c tests\mock_data\npm_mock.c
-set UNIT_TEST_SOURCES=tests\unit\test_csv_parser.c tests\unit\test_vulnerability_checker.c tests\unit\test_report_generator.c
-set INTEGRATION_TEST_SOURCES=tests\integration\test_npm_analyzer.c tests\integration\test_full_workflow.c
-set E2E_TEST_SOURCES=tests\e2e\test_end_to_end.c
+set UNIT_TEST_SOURCES=tests\unit\test_csv_parser.c tests\unit\test_vulnerability_checker.c tests\unit\test_report_generator.c tests\unit\test_cli.c
+set INTEGRATION_TEST_SOURCES=tests\integration\test_npm_analyzer.c tests\integration\test_full_workflow.c tests\integration\test_cli_integration.c tests\integration\test_gui_integration.c
+set E2E_TEST_SOURCES=tests\e2e\test_end_to_end.c tests\e2e\test_cli_e2e.c
 set MAIN_TEST_SOURCE=tests\run_all_tests.c
 
 REM Compile tests
@@ -71,7 +71,7 @@ REM Create test build directory
 if not exist "build\tests" mkdir "build\tests"
 
 REM Source files
-set MAIN_SOURCES=src\common.c src\csv_parser.c src\npm_analyzer.c src\vulnerability_checker.c src\report_generator.c
+set MAIN_SOURCES=src\common.c src\csv_parser.c src\npm_analyzer.c src\vulnerability_checker.c src\report_generator.c src\cli.c
 set TEST_SOURCES=tests\test_framework.c tests\mock_data\npm_mock.c
 set UNIT_TEST_SOURCES=tests\unit\test_csv_parser.c tests\unit\test_vulnerability_checker.c tests\unit\test_report_generator.c
 set INTEGRATION_TEST_SOURCES=tests\integration\test_npm_analyzer.c tests\integration\test_full_workflow.c

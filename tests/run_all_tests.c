@@ -4,13 +4,17 @@
 void run_csv_parser_tests(void);
 void run_vulnerability_checker_tests(void);
 void run_report_generator_tests(void);
+void run_cli_tests(void);
 
 // Integration test function declarations
 void run_npm_analyzer_integration_tests(void);
 void run_full_workflow_integration_tests(void);
+void run_cli_integration_tests(void);
+void run_gui_integration_tests(void);
 
 // End-to-end test function declarations
 void run_end_to_end_tests(void);
+void run_cli_e2e_tests(void);
 
 int main(int argc, char *argv[]) {
     printf("==============================================\n");
@@ -45,23 +49,27 @@ int main(int argc, char *argv[]) {
 
     // Run unit tests
     if (run_unit) {
-        printf("\n▶ Running Unit Tests...\n");
+        printf("\n> Running Unit Tests...\n");
         run_csv_parser_tests();
         run_vulnerability_checker_tests();
         run_report_generator_tests();
+        run_cli_tests();
     }
 
     // Run integration tests
     if (run_integration) {
-        printf("\n▶ Running Integration Tests...\n");
+        printf("\n> Running Integration Tests...\n");
         run_npm_analyzer_integration_tests();
         run_full_workflow_integration_tests();
+        run_cli_integration_tests();
+        run_gui_integration_tests();
     }
 
     // Run end-to-end tests
     if (run_e2e) {
-        printf("\n▶ Running End-to-End Tests...\n");
+        printf("\n> Running End-to-End Tests...\n");
         run_end_to_end_tests();
+        run_cli_e2e_tests();
     }
 
     // Print final summary

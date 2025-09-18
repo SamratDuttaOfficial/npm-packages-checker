@@ -31,7 +31,7 @@ REM Create build directory
 if not exist "build\windows" mkdir "build\windows"
 
 REM Source files
-set SOURCES=src\main.c src\common.c src\csv_parser.c src\npm_analyzer.c src\vulnerability_checker.c src\report_generator.c src\gui_windows.c
+set SOURCES=src\main.c src\common.c src\csv_parser.c src\npm_analyzer.c src\vulnerability_checker.c src\report_generator.c src\gui_windows.c src\cli.c
 
 REM Compile with GCC (MinGW)
 echo Compiling...
@@ -60,7 +60,7 @@ REM Create build directory
 if not exist "build\windows" mkdir "build\windows"
 
 REM Source files
-set SOURCES=src\main.c src\common.c src\csv_parser.c src\npm_analyzer.c src\vulnerability_checker.c src\report_generator.c src\gui_windows.c
+set SOURCES=src\main.c src\common.c src\csv_parser.c src\npm_analyzer.c src\vulnerability_checker.c src\report_generator.c src\gui_windows.c src\cli.c
 
 REM Compile with MSVC
 echo Compiling...
